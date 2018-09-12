@@ -38,7 +38,7 @@
                                             @csrf()
                                             <script
                                                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                                data-key="pk_test_fHzJVW9xkeyLI2ViQhsvxMUX"
+                                                data-key="########### Secter api key  #################"
                                                 data-amount=ceil(Cart::total())*100
                                                 data-name="Neel-Mars"
                                                 data-description="Mobile Shop"
